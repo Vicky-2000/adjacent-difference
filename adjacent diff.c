@@ -2,6 +2,7 @@
 int main()
 {int a[10000];
 int i,n,d;
+ printf("enter the range");
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {scanf("%d",&a[i]);
