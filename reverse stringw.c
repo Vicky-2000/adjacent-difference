@@ -6,12 +6,11 @@ char temp;
 int n,i;
 gets(a);
 n=strlen(a);
-for(i=0;a[i]<=n/2-1;i++)
+for(i=0;i<=n/2-1;i++)
 {temp=a[i];
-a[i]=a[n-i];
-a[n-i]=temp;
-
+a[i]=a[n-1-i];
+a[n-1-i]=temp;
 }
-printf("%s",a);
+puts(a);
 return 0;
 }
